@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'CodecPro';
+    src: url('CodecPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.leftContainer {
+    background: linear-gradient(to bottom, #42307D, #7F56D9);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo {
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.logotext {
+    transform: rotate(0.15deg);
+  display: inline-block;
+    color: #F4EBFF;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'CodecPro' , sans-serif;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 477px;
+    height: 454px;
+    margin-bottom: 30px;
+}
+
+.upumachine {
+    margin-bottom: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.arrow {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 70px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #B692F6;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+.dot:hover {
+    background-color: lightgray;
+}
+
+.bottomtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+    width: 50%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.rightContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer .textloginbox {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 360px;
+    height: auto;
+    align-items: flex-start;
+}
+
+.boldlogintext {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #101828;
+    margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.supportedText {
+    color: #475467;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.loginHeaderGroup {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputText, .inputlabel {
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    font-family: 'Inter' ,sans-serif;
+}
+
+.inputField {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.loginButton {
+    padding: 12px;
+    background-color: #7F56D9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.formExtras{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.rememberMeGroup{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.checkboxInput{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.checkboxLabel{
+    font-size: 14px;
+    cursor: pointer;
+    color: #344054;
+    font-weight: 500;
+    font-family: 'Inter',sans-serif;
+}
+.forgotPassword{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6941C6;
+    font-family: 'Inter' , sans-serif;
+}
+.subtext{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #475467;
+    width: 100%;
+    font-family: 'Inter' , sans-serif;
+}
+
+.upulink
+{
+    text-decoration: none;
+    color: #6941C6;
+    font-weight: 600 !important;
+}
+
+.leftCorner{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.7;
+    color: #475467;
+    font-family: 'Inter',sans-serif;
+    
+}
+
+
