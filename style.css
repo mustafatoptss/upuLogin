@@ -260,17 +260,17 @@ html, body {
     z-index: -1;
   }
   
-  /* Sağ Alt (–30°) */
+
   .linepattern-bottom {
-    bottom: -10px;               /* ihtiyacına göre ayarla */
+    bottom: -10px;             
     left: -10px;
     
     transform: rotate(30deg);
   }
   
-  /* Sağ Üst (–1°) */
+
   .linepattern-top {
-    top: -50px;                  /* ihtiyacına göre ayarla */
+    top: -50px;                 
     right: -50px;
     transform-origin: top right;
     transform: rotate(-270sdeg);
