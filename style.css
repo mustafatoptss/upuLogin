@@ -13,12 +13,14 @@
 html, body {
     height: 100%;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 .mainContainer {
     display: flex;
     height: 100vh;
     width: 100%;
+    position:  relative !important;
 }
 
 .leftContainer {
@@ -111,6 +113,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: visible;
 }
 
 .rightContainer .textloginbox {
@@ -247,5 +251,29 @@ html, body {
     font-family: 'Inter',sans-serif;
     
 }
+.linepattern {
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    opacity: 0.9;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  /* Sağ Alt (–30°) */
+  .linepattern-bottom {
+    bottom: -10px;               /* ihtiyacına göre ayarla */
+    left: -10px;
+    
+    transform: rotate(30deg);
+  }
+  
+  /* Sağ Üst (–1°) */
+  .linepattern-top {
+    top: -50px;                  /* ihtiyacına göre ayarla */
+    right: -50px;
+    transform-origin: top right;
+    transform: rotate(-270sdeg);
+  }
 
 
